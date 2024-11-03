@@ -1,0 +1,1 @@
+1- DemoApp Project - spring web application - welcome screen. Run the programme and check for locat host port mentioned in terminal for tomcat normally it would be http://localhost:8080/   to see welcome screen
