@@ -1,5 +1,5 @@
 ## Spring  
--Spring Boot is a framework for building applicagtions in the java programming langauge.
+- Spring Boot is a framework for building applicagtions in the java programming langauge.
 >It makes easy to create stand-alone, production-grade applications using java.  
 >A standalone application is a self-contained application that can run independently without requiring additional dependencies or external setup you can package the entire application code, libraries and embedded server into a fat jar or Uber jar which can run through the command:   
 >Java - jar my app.jar  
