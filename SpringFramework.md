@@ -25,6 +25,35 @@ create a java class and add @RestController above class and @GetMapping above th
 The context of @GetMapping("abc") in Spring Framework, abc refers to the URI path (or endpoint) that will handle the HTTP GET request.  
 When you use @RestController and @GetMapping("pay"), you are indeed creating a RESTful API endpoint.   
 ![image](https://github.com/user-attachments/assets/0ad13038-37c0-4c53-9c8a-a721686b2cff)
+#### Maven  
+>Build automation tool  
+>It manages the dependencies.  
+we can copy any external library from maven repository and paste in pom.xml file.  
+> Serch on google: maven opencsv
+>https://mvnrepository.com/artifact/com.opencsv/opencsv and can get dependecy as follow:
+![image](https://github.com/user-attachments/assets/8962acc2-638f-4da7-adfa-befab285e5b4)
+
+AFter you copy the dependency in pom.xml file you can right click the project go to maven and reload project to integrate the dependency in the project.  
+![image](https://github.com/user-attachments/assets/37b292ff-696a-4541-800c-96269f320c97)  
+>Build automation tool  
+![image](https://github.com/user-attachments/assets/e9aba8ce-1483-4f9e-a188-f8e1e8c50414)
+Try commands one by one on terminal of IntelliJ
+>mvn validate
+if maven is not installed you can run with go to the file location  and type  
+> .\mvnw.cmd validate  
+> .\mvnw.cmd compile  
+> .\mvnw.cmd test //if written any test
+> .\mvnw.cmd package  //to make package  
+> java -jar .\myFirstProject-0.0.1-SNAPSHOT.jar //you can run this jar file too  
+> If you use command .\mvnw.cmd package it automatically- VALIDATE, COMPILE, TEST, AND MAKES JAR FILE
+ALso we can do it from Maven right side plugin all life cycle can be performed.
+![image](https://github.com/user-attachments/assets/3de93b13-60b0-47aa-a471-cdf40ed16309)  
+>If you have pom.xml file in the project then the build tool is maven.
+
+
+
+
+
 
 
 
