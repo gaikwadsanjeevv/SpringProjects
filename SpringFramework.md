@@ -48,6 +48,14 @@ if maven is not installed you can run with go to the file location  and type
 - ALso we can do it from Maven right side plugin all life cycle can be performed.
 ![image](https://github.com/user-attachments/assets/3de93b13-60b0-47aa-a471-cdf40ed16309)  
 - If you have pom.xml file in the project then the build tool is maven.
+- ###### Project Structure:
+![image](https://github.com/user-attachments/assets/ef151615-f6b6-4c5a-a786-607618132ac4)  
+![image](https://github.com/user-attachments/assets/c876ed1b-0492-4e33-8c96-b7537d44baee)  
+- .idea folder- related to intelliJ, we can ignore the folder during commit in .gitignore file.
+- ![image](https://github.com/user-attachments/assets/7f623c06-5dbb-4245-8d76-4f9192363a19)
+
+
+
 
 
 
