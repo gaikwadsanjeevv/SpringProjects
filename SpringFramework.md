@@ -1,5 +1,5 @@
 ## Spring  
-- Spring Boot is a framework for building applicagtions in the java programming langauge.
+- Spring Boot is a framework for building applications in the java programming langauge.
 - It makes easy to create stand-alone, production-grade applications using java.  
 - A standalone application is a self-contained application that can run independently without requiring additional dependencies or external setup you can package the entire application code, libraries and embedded server into a fat jar or Uber jar which can run through the command:   
 - Java - jar my app.jar  
@@ -16,7 +16,21 @@ Purpose:
 2.Enable runtime processing (e.g., @Deprecated, @SuppressWarnings).  
 3.Allow frameworks (like Spring) to process metadata to perform dependency injection, etc.  
 4.Placement: Annotations can be applied to classes, methods, fields, variables, parameters, and packages.
-- Lets create a spring project on Spring initializer:
+###### The ApplicationContext in Spring not only creates and manages beans but also provides additional features and capabilities that extend beyond simply creating and managing beans.  
+What ApplicationContext Does  
+Bean Definition and Lifecycle Management:  
+
+- It creates and initializes beans based on configurations provided through annotations, XML, or Java-based configuration (@Configuration).  
+- Manages the full lifecycle of beans, including creation, dependency injection, initialization, and destruction.  
+Dependency Injection:  
+
+- Resolves dependencies between beans automatically using annotations like @Autowired, @Qualifier, or XML configuration.  
+- Ensures the beans are wired together based on defined relationships.  
+Advanced Bean Scoping:  
+
+- Supports bean scopes like singleton, prototype, request, session, and application.  
+- Ensures the right scope is adhered to during bean retrieval.  
+- Lets create a spring project on Spring initializer:  
 ![image](https://github.com/user-attachments/assets/83dde70b-1a31-418f-9264-2c5fa2b15158)
 - jar vs war
 ![image](https://github.com/user-attachments/assets/44108ab3-186d-48ea-8027-6ea46c47788b)
