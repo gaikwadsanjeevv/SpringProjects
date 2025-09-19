@@ -99,6 +99,9 @@ if maven is not installed you can run with go to the file location  and type
 ![image](https://github.com/user-attachments/assets/b2b584b0-4b15-4c9b-86fc-5db74c79c72a)
 - @Autowired is an annotation in Spring Framework used for dependency injection. It tells the Spring IoC (Inversion of Control) container to automatically inject a required bean (object) into a class where the annotation is applied.
 - 
+Spring boot follows convention over configuration. So if you follow proper convention, the configuration will follow up.  
+<img width="2298" height="1314" alt="image" src="https://github.com/user-attachments/assets/605efe04-d195-4e83-ae64-33266244d100" />
+
 
 
 
